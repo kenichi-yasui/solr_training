@@ -1,19 +1,19 @@
 #
-# This file defines a stopword set for Japanese.
+# このファイルは、日本語のストップワードセットを定義します。
 #
-# This set is made up of hand-picked frequent terms from segmented Japanese Wikipedia.
-# Punctuation characters and frequent kanji have mostly been left out.  See LUCENE-3745
-# for frequency lists, etc. that can be useful for making your own set (if desired)
+#  このセットは、セグメント化された日本語版ウィキペディアから厳選された頻繁な用語で構成されています。
+#  句読点の文字と頻繁な漢字はほとんど省略されています。 LUCENE-3745を参照してください
+#  独自のセットを作成するのに役立つ頻度リストなど（必要な場合）
 #
-# Note that there is an overlap between these stopwords and the terms stopped when used
-# in combination with the JapanesePartOfSpeechStopFilter.  When editing this file, note
-# that comments are not allowed on the same line as stopwords.
+#  これらのストップワードと使用時に停止した用語の間には重複があることに注意してください
+#  JapanesePartOfSpeechStopFilterと組み合わせて。 このファイルを編集するときは、注意してください
+#  そのコメントは、ストップワードと同じ行に許可されていません。
 #
-# Also note that stopping is done in a case-insensitive manner.  Change your StopFilter
-# configuration if you need case-sensitive stopping.  Lastly, note that stopping is done
-# using the same character width as the entries in this file.  Since this StopFilter is
-# normally done after a CJKWidthFilter in your chain, you would usually want your romaji
-# entries to be in half-width and your kana entries to be in full-width.
+#  また、停止は大文字と小文字を区別しない方法で行われることに注意してください。 StopFilterを変更します
+#  大文字と小文字を区別する停止が必要な場合の構成。 最後に、停止が行われることに注意してください
+#  このファイルのエントリと同じ文字幅を使用します。 このStopFilterは
+#  通常、チェーン内のCJKWidthFilterの後に実行されますが、通常はローマ字が必要です。
+#  エントリは半角になり、かなエントリは全幅になります。
 #
 の
 に
