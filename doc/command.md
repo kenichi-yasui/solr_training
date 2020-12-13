@@ -2,11 +2,13 @@
 ## solr起動
     solr start -p 8983
 
+    binフォルダで実行
 ## solr 状態確認
     solr status
 
     以下のように表示されればOK
     Found Sol process XXXX runing on port xxxx
+    binフォルダで実行
 
 ## curlコマンド
     様々なプロトコルを使用してデータ転送を行うことができるコマンド
